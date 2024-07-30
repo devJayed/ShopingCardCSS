@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.card {
+  width: 260px;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.shoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.bags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+h3 {
+  font-size: 32px;
+}
+img {
+  width: 128px;
+  height: 128px;
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 12px;
+}
